@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Max | CS Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =============================================
+       NAV — add/remove links here to match sections
+  ============================================= -->
+  <nav>
+    <div class="nav-logo">Maxwell Kerby<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- =============================================
+         HERO SECTION
+    ============================================= -->
+    <section id="hero">
+      <p class="hero-greeting">Hey, I'm</p>
+      <h1 class="hero-name">Maxwell Kerby</h1>
+      <p class="hero-role">Software Developer</p>
+      <p class="hero-bio">
+        CS student at SVSU building web apps, exploring backend systems,
+        and always looking for the next interesting problem to solve.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+    </section>
+
+    <!-- =============================================
+         ABOUT SECTION — remove this entire block to hide it
+    ============================================= -->
+    <section id="about" class="reveal">
+      <p class="section-label">About</p>
+      <h2 class="section-title">A little about me</h2>
+      <div class="section-divider"></div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a Computer Science major at Saginaw Valley State University with a
+            passion for building software that solves real problems. I've maintained
+            a 3.8 GPA and been recognized on the Dean's List and President's List.
+          </p>
+          <p>
+            Outside of school I volunteer with Swan Valley Pay it Forward and enjoy
+            turning caffeine into commits.
+          </p>
+        </div>
+        <div class="about-facts">
+          <div class="fact-item">
+            <span class="fact-label">University</span>
+            <span class="fact-value">SVSU</span>
+          </div>
+          <div class="fact-item">
+            <span class="fact-label">GPA</span>
+            <span class="fact-value">3.8 / 4.0</span>
+          </div>
+          <div class="fact-item">
+            <span class="fact-label">Graduating</span>
+            <span class="fact-value">May 2026</span>
+          </div>
+          <div class="fact-item">
+            <span class="fact-label">Location</span>
+            <span class="fact-value">Michigan</span>
+          </div>
+          <div class="fact-item">
+            <span class="fact-label">Status</span>
+            <span class="fact-value">Open to opportunities</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+         SKILLS SECTION — remove this entire block to hide it
+    ============================================= -->
+    <section id="skills" class="reveal">
+      <p class="section-label">Skills</p>
+      <h2 class="section-title">What I work with</h2>
+      <div class="section-divider"></div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <div class="skill-tags">
+            <span class="tag">React</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">HTML/CSS</span>
+            <span class="tag">Bootstrap</span>
+            <span class="tag">JavaFX</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <div class="skill-tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">.NET / C#</span>
+            <span class="tag">REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Data</h3>
+          <div class="skill-tags">
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <div class="skill-tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">Postman</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+         PROJECTS SECTION — remove this entire block to hide it
+         To add a project: copy one .project-card and paste it in the grid
+    ============================================= -->
+    <section id="projects" class="reveal">
+      <p class="section-label">Projects</p>
+      <h2 class="section-title">Things I've built</h2>
+      <div class="section-divider"></div>
+      <div class="projects-grid">
+
+        <!-- PROJECT CARD — copy & paste to add more -->
+        <div class="project-card">
+          <h3>Project Name</h3>
+          <p>Short description of what it does and what problem it solves. Keep it to 2–3 sentences.</p>
+          <div class="skill-tags">
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">SQL</span>
+          </div>
+          <div class="project-links">
+            <a href="#">GitHub →</a>
+            <a href="#">Live Demo →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Another Project</h3>
+          <p>Describe what you built here. What was the tech? What did you learn?</p>
+          <div class="skill-tags">
+            <span class="tag">C#</span>
+            <span class="tag">.NET</span>
+          </div>
+          <div class="project-links">
+            <a href="#">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Third Project</h3>
+          <p>Any class project, side project, or freelance work counts here.</p>
+          <div class="skill-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">REST API</span>
+          </div>
+          <div class="project-links">
+            <a href="#">GitHub →</a>
+            <a href="#">Live Demo →</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================================
+         EXPERIENCE SECTION — remove this entire block to hide it
+         To add an item: copy a .timeline-item and paste inside .timeline
+    ============================================= -->
+    <section id="experience" class="reveal">
+      <p class="section-label">Experience</p>
+      <h2 class="section-title">Where I've been</h2>
+      <div class="section-divider"></div>
+      <div class="timeline">
+
+        <!-- TIMELINE ITEM — copy & paste to add more -->
+        <div class="timeline-item">
+          <div class="timeline-date">2024 – Present</div>
+          <div class="timeline-content">
+            <h3>Job Title</h3>
+            <p class="company">Company Name</p>
+            <p>Brief description of your role and what you accomplished. Use action verbs — built, designed, reduced, improved.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2023</div>
+          <div class="timeline-content">
+            <h3>Previous Role</h3>
+            <p class="company">Another Company</p>
+            <p>Another accomplishment or responsibility here.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">8+ Years</div>
+          <div class="timeline-content">
+            <h3>Volunteer</h3>
+            <p class="company">Swan Valley Pay it Forward</p>
+            <p>Long-term community volunteer work demonstrating commitment and leadership.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================================
+         CONTACT SECTION — remove this entire block to hide it
+    ============================================= -->
+    <section id="contact" class="reveal">
+      <p class="section-label">Contact</p>
+      <h2 class="section-title">Let's talk</h2>
+      <div class="section-divider"></div>
+      <div class="contact-card">
+        <p>Whether it's a job opportunity, a project idea, or just to connect — my inbox is open.</p>
+        <div class="contact-links">
+          <a href="mailto:you@email.com" class="btn btn-primary">Email Me</a>
+          <a href="https://github.com/yourusername" class="btn btn-ghost" target="_blank">GitHub</a>
+          <a href="https://linkedin.com/in/yourprofile" class="btn btn-ghost" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =============================================
+       FOOTER
+  ============================================= -->
+  <footer>
+    <p>Built by Max Kerby &middot; <a href="https://github.com/mdkerby">View Source</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
